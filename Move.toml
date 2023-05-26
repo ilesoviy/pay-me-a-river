@@ -1,0 +1,9 @@
+[package]
+name = 'pay_me_a_river'
+version = '1.0.0'
+
+[addresses]
+overmind = '0x1337'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-release-v1.4" }
